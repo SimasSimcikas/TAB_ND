@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namu darbas</title>
+    <link rel="icon" type="image/x-icon" href="app/images/gulp.svg" />
+    <link rel="stylesheet" href="./scss/style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h2>3 mano hobiai</h2>
+    <div class="buttons">
+      <button onclick="showTab(event, 'first')">Astronomija</button>
+      <button onclick="showTab(event, 'second')">Politika</button>
+      <button onclick="showTab(event, 'third')">Vaiksciojimas</button>
+    </div>
+    <div class="tabs">
+      <div id="first" class="tab">
+        <div class="image-container">
+          <img src="./app/images/space.jpg" alt="space image" />
+          <span class="text-overlay">Astronomija</span>
+        </div>
+        <p>
+          Astronomija mane sužavi savo paslaptingumu ir grožiu. Stebėti
+          žvaigždes ir planetas pro teleskopą yra neįkainojama patirtis,
+          leidžianti pamatyti visatos begalybę tiesiai iš savo kiemo. Mokytis
+          žvaigždžių pavadinimus ir suprasti kosminę mechaniką man atveria naują
+          pasaulį, kuriame kiekviena žvaigždė turi savo istoriją ir reikšmę.
+        </p>
+      </div>
+      <div id="second" class="tab">
+        <div class="image-container">
+          <img src="./app/images/politics.jpg" alt="politics image" />
+          <span class="text-overlay">Politika</span>
+        </div>
+        <p>
+          Politika mane įkvepia dėl jos galios keisti pasaulį. Mano
+          susidomėjimas politika yra ne tik apie tai, kaip valstybės veikia, bet
+          ir apie tai, kaip jos gali pagerinti savo gyventojų gyvenimus. Šis
+          hobis man suteikia galimybę išmokti kritiškai mąstyti, analizuoti
+          įvykius ir formuoti savo nuomonę apie svarbiausius visuomenės
+          klausimus.
+        </p>
+      </div>
+      <div id="third" class="tab">
+        <div class="image-container">
+          <img src="./app/images/walking.jpg" alt="walking image" />
+          <span class="text-overlay">Vaikscioti</span>
+        </div>
+        <p>
+          Vaikščiojimas yra mano būdas suartėti su gamta ir atsikratyti streso.
+          Kelionės pėsčiomis leidžia man atrasti naujus kampus, paslaptingus
+          takus ir grožį, kurį siūlo mūsų aplinka. Būdamas vienas su gamta,
+          galiu atsipalaiduoti, sustoti ir atkreipti dėmesį į smulkmenas, kurias
+          dažnai praleidžiu skubėdamas kasdienėje gyvenimo rutinoje.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

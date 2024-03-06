@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 20px;
+  background: url(/app/images/cube.jpg);
+  color: #dad4b5;
+}
+
+h2 {
+  text-align: center;
+}
+
+.tabs {
+  width: 100%;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.tabs img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.tabs .tab:first {
+  background-color: blue;
+}
+
+.tabs .tab:first {
+  background-color: green;
+}
+
+.tabs .tab:third-child {
+  background-color: yellow;
+}
+
+.image-container {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.container img {
+  width: 100%;
+}
+
+.text-overlay {
+  position: absolute;
+  color: white;
+  left: 50%;
+  top: 50%;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+}
+
+.tabs p {
+  text-align: justify;
+  line-height: 25px;
+  margin-top: 25px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.buttons button {
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  transition: 0.5s;
+  box-shadow: 2px 2px red;
+}
+
+.selected-button {
+  background: black;
+  color: white;
+  border-radius: 20px;
+}/*# sourceMappingURL=style.css.map */
